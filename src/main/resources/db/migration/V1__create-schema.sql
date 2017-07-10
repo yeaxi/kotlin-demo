@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS GOOD;
+
+CREATE TABLE GOOD (
+  id       INTEGER IDENTITY,
+  name     VARCHAR(30),
+  quantity INTEGER
+);
